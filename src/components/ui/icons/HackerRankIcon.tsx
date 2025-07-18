@@ -1,7 +1,10 @@
-
 import { SVGProps } from "react";
 
-export const HackerRankIcon = ({ size = 35, ...props }: SVGProps<SVGSVGElement>) => (
+type Props = {
+  size?: number;
+} & SVGProps<SVGSVGElement>;
+
+export const HackerRankIcon = ({ size = 35, ...props }: Props) => (
   <svg
     width={size}
     height={size}
