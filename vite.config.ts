@@ -8,8 +8,8 @@ export default defineConfig({
     VitePWA({
       registerType: 'autoUpdate',
       manifest: {
-        name: "Archi Porwal's Portfolio",
-        short_name: "Archi's Portfolio",
+        name: "Rishi Bakshi's Portfolio",
+        short_name: "Rishi's Portfolio",
         theme_color: "#000000",
         background_color: "#000000",
         display: "standalone",
@@ -46,6 +46,5 @@ export default defineConfig({
       },
     }),
   ],
-
-  base: '/',
+  base: '/', // ✅ Must be root for Netlify
 })
